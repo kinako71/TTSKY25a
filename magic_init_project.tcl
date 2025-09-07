@@ -47,6 +47,6 @@ foreach {name x} $POWER_STRIPES {
 
 # Save the layout and export GDS/LEF
 # ----------------------------------
-save ${TOP_LEVEL_CELL}.mag
-gds write ../gds/${TOP_LEVEL_CELL}.gds
-lef write ../lef/${TOP_LEVEL_CELL}.lef -hide -pinonly
+# save ${TOP_LEVEL_CELL}.mag
+gds write gds/${TOP_LEVEL_CELL}.gds
+# lef write ../lef/${TOP_LEVEL_CELL}.lef -hide -pinonly
