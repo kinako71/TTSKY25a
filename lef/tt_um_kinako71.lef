@@ -26,6 +26,7 @@ MACRO tt_um_kinako71
     END
   END rst_n
   PIN ua[0]
+    ANTENNAGATEAREA 0.189000 ;
     PORT
       LAYER met4 ;
         RECT 151.810 0.000 152.710 1.000 ;
@@ -332,7 +333,13 @@ MACRO tt_um_kinako71
       LAYER li1 ;
         RECT 67.315 162.845 70.190 166.065 ;
       LAYER met1 ;
-        RECT 67.255 162.815 70.250 166.095 ;
+        RECT 67.255 1.625 152.510 166.095 ;
+      LAYER met2 ;
+        RECT 151.925 1.500 152.620 2.140 ;
+      LAYER met3 ;
+        RECT 151.870 1.435 152.680 2.185 ;
+      LAYER met4 ;
+        RECT 151.815 1.400 152.695 2.220 ;
   END
 END tt_um_kinako71
 END LIBRARY
